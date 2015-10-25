@@ -11,7 +11,7 @@ TreeTableViewWithSwift是用Swift编写的树形结构显示的TableView控件�
 也可以通过简书查看：[简书](http://www.jianshu.com/p/75bcd49f144e)
 ### 1、运行效果
 
-![image](https://github.com/robertzhang/TreeTableViewWithSwift/raw/master/images-folder/treetableview-01.png)
+![image](https://github.com/robertzhang/TreeTableViewWithSwift/raw/master/screenshots/treetableview-01.png)
 
 ### 2、关键代码的解读
 TreeTableViewWithSwift其实是对tableview的扩展。在此之前需要先创建一个TreeNode类用于存储我们的数据
