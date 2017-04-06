@@ -12,14 +12,14 @@
 		D47BB3141BDB57AB006D8532 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D47BB3121BDB57AB006D8532 /* Main.storyboard */; };
 		D47BB3161BDB57AB006D8532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D47BB3151BDB57AB006D8532 /* Assets.xcassets */; };
 		D47BB3191BDB57AB006D8532 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D47BB3171BDB57AB006D8532 /* LaunchScreen.storyboard */; };
-		D47BB3251BDB59B5006D8532 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47BB3241BDB59B5006D8532 /* TreeNode.swift */; settings = {ASSET_TAGS = (); }; };
-		D47BB3271BDB59F6006D8532 /* TreeNodeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47BB3261BDB59F6006D8532 /* TreeNodeHelper.swift */; settings = {ASSET_TAGS = (); }; };
-		D47BB32C1BDB5F8A006D8532 /* tree_ec.png in Resources */ = {isa = PBXBuildFile; fileRef = D47BB32B1BDB5F8A006D8532 /* tree_ec.png */; settings = {ASSET_TAGS = (); }; };
-		D47BB32E1BDB5F94006D8532 /* tree_ex.png in Resources */ = {isa = PBXBuildFile; fileRef = D47BB32D1BDB5F94006D8532 /* tree_ex.png */; settings = {ASSET_TAGS = (); }; };
-		D47BB3301BDB610F006D8532 /* TreeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47BB32F1BDB610F006D8532 /* TreeTableView.swift */; settings = {ASSET_TAGS = (); }; };
-		D47BB3331BDB61B7006D8532 /* TreeNodeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47BB3311BDB61B7006D8532 /* TreeNodeTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
-		D47BB3341BDB61B7006D8532 /* TreeNodeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D47BB3321BDB61B7006D8532 /* TreeNodeTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
-		D47BB3361BDB6958006D8532 /* DataInof.plist in Resources */ = {isa = PBXBuildFile; fileRef = D47BB3351BDB6958006D8532 /* DataInof.plist */; settings = {ASSET_TAGS = (); }; };
+		D47BB3251BDB59B5006D8532 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47BB3241BDB59B5006D8532 /* TreeNode.swift */; };
+		D47BB3271BDB59F6006D8532 /* TreeNodeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47BB3261BDB59F6006D8532 /* TreeNodeHelper.swift */; };
+		D47BB32C1BDB5F8A006D8532 /* tree_ec.png in Resources */ = {isa = PBXBuildFile; fileRef = D47BB32B1BDB5F8A006D8532 /* tree_ec.png */; };
+		D47BB32E1BDB5F94006D8532 /* tree_ex.png in Resources */ = {isa = PBXBuildFile; fileRef = D47BB32D1BDB5F94006D8532 /* tree_ex.png */; };
+		D47BB3301BDB610F006D8532 /* TreeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47BB32F1BDB610F006D8532 /* TreeTableView.swift */; };
+		D47BB3331BDB61B7006D8532 /* TreeNodeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47BB3311BDB61B7006D8532 /* TreeNodeTableViewCell.swift */; };
+		D47BB3341BDB61B7006D8532 /* TreeNodeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D47BB3321BDB61B7006D8532 /* TreeNodeTableViewCell.xib */; };
+		D47BB3361BDB6958006D8532 /* DataInof.plist in Resources */ = {isa = PBXBuildFile; fileRef = D47BB3351BDB6958006D8532 /* DataInof.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -146,12 +146,13 @@
 		D47BB3031BDB57AB006D8532 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = robertzhang;
 				TargetAttributes = {
 					D47BB30A1BDB57AB006D8532 = {
 						CreatedOnToolsVersion = 7.0.1;
 						DevelopmentTeam = E2CNGQLV8B;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -239,8 +240,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -283,8 +286,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -303,6 +308,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -315,6 +321,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = robertzhang.TreeTableVIewWithSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -326,6 +333,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = robertzhang.TreeTableVIewWithSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -348,6 +356,7 @@
 				D47BB31F1BDB57AB006D8532 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,7 +9,7 @@
 import Foundation
 
 
-public class TreeNode {
+open class TreeNode {
     
     static let NODE_TYPE_G: Int = 0 //表示该节点不是叶子节点
     static let NODE_TYPE_N: Int = 1 //表示节点为叶子节点
@@ -55,10 +55,10 @@ public class TreeNode {
     }
     
     //设置展开
-    func setExpand(isExpand: Bool) {
+    func setExpand(_ isExpand: Bool) {
         self.isExpand = isExpand
         if !isExpand {
-            for (var i=0;i<children.count;i++) {
+            for i in 0 ..< children.count {
                 children[i].setExpand(isExpand)
             }
         }

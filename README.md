@@ -7,7 +7,9 @@ TreeTableViewWithSwift是用Swift编写的树形结构显示的TableView控件�
 
 
 ## TreeTableViewWithSwift简介
-开发环境：Swift 2.0，XCode版本：7.0.1 ，ios 9.0
+>~~开发环境：Swift 2.0，Xcode版本：7.0.1 ，ios 9.0~~
+升级到 Swift 3.0， Xcode 版本 8.2.1  
+
 也可以通过简书查看：[简书](http://www.jianshu.com/p/75bcd49f144e)
 ### 1、运行效果
 
